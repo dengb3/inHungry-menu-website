@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: red;
+    
+  }
+  
+  .button-container .filter-button {
+    float: left;
+    padding: 5px 0px;
+    margin-left: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .filter-button {
+    width: 100px;
+    text-align: center;
+  }
+  
+  .item-image {
+    width: 200px
+  }
+  
+  .responsive {
+    width: 500px;
+    height: auto;
+  }
+  
