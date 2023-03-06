@@ -1,33 +1,45 @@
 h1 {
-    text-align: center;
-    font-family: sans-serif;
-    color: red;
-    
-  }
+  text-align: center;
+  font-family: sans-serif;
+  color: red;
   
+}
+
 .button-container .filter-button {
-    float: left;
-    padding: 5px 0px;
-    margin-left: 20px;
-  }
-  
+  float: left;
+  padding: 5px 0px;
+  margin-left: 20px;
+}
+
 .button-container {
-    display: flex;
-    justify-content: center;
-    
-  }
+  display: flex;
+  justify-content: center;
   
+}
+
 .filter-button {
-    width: 100px;
-    text-align: center;
-  }
-  
+  width: 100px;
+  text-align: center;
+}
+
 .item-image {
-    width: 200px
-  }
-  
+  width: 100px
+}
+
 .responsive {
-    width: 500px;
-    height: auto;
-  }
-  
+  width: 500px;
+  height: auto;
+}
+
+#item1, #item2, #item3, #item4 {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:        border-box;
+background-color: blue;
+height:200px;
+  width: 24%;
+  background:blue;
+  display:inline-block;
+  float: left;
+  margin: 0 1% 1% 0; // Space bottom and 
+}
