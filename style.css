@@ -5,28 +5,28 @@ h1 {
     
   }
   
-  .button-container .filter-button {
+.button-container .filter-button {
     float: left;
     padding: 5px 0px;
     margin-left: 20px;
   }
   
-  .button-container {
+.button-container {
     display: flex;
     justify-content: center;
     
   }
   
-  .filter-button {
+.filter-button {
     width: 100px;
     text-align: center;
   }
   
-  .item-image {
+.item-image {
     width: 200px
   }
   
-  .responsive {
+.responsive {
     width: 500px;
     height: auto;
   }
