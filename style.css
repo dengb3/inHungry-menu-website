@@ -1,33 +1,79 @@
 h1 {
-    text-align: center;
-    font-family: sans-serif;
-    color: red;
-    
-  }
-  
+	text-align: center;
+	font-family: sans-serif;
+	color: red;
+}
+
+h5 {
+	padding-top: 30px;
+}
+
+.main-items {
+	background-color: red;
+}
 .button-container .filter-button {
-    float: left;
-    padding: 5px 0px;
-    margin-left: 20px;
-  }
-  
+	float: left;
+	padding: 5px 0px;
+	margin-left: 20px;
+}
+
 .button-container {
-    display: flex;
-    justify-content: center;
-    
-  }
-  
+	display: flex;
+	justify-content: center;
+}
+
 .filter-button {
-    width: 100px;
-    text-align: center;
-  }
-  
-.item-image {
-    width: 200px
-  }
-  
+	width: 100px;
+	text-align: center;
+  background-color: rgb(228, 225, 225);
+}
+
 .responsive {
-    width: 500px;
-    height: auto;
-  }
-  
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	height: auto;
+}
+
+#item1,
+#item2,
+#item3,
+#item4 {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	// background-color: blue;
+	height: 500px;
+	width: 23%;
+	// background: blue;
+	display: inline-block;
+	float: left;
+	margin: 0% 2% 0% 0; // Space bottom and
+	border-radius: 50px;
+}
+
+
+
+.food-items {
+	margin-top: 100px;
+  padding-left: 50px;
+
+}
+
+.item-name {
+	text-align: center;
+  padding-top: 5px;
+}
+
+.item-description {
+	margin-top: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: match-parent;
+}
+
+article {
+  background-color: rgb(228, 225, 225);
+  border-style: solid;
+}
