@@ -8,14 +8,6 @@ h5 {
 	padding-top: 30px;
 }
 
-.main-items {
-	background-color: red;
-}
-.button-container .filter-button {
-	float: left;
-	padding: 5px 0px;
-	margin-left: 20px;
-}
 
 .button-container {
 	display: flex;
@@ -25,7 +17,7 @@ h5 {
 .filter-button {
 	width: 100px;
 	text-align: center;
-  background-color: rgb(228, 225, 225);
+  	background-color: rgb(228, 225, 225);
 }
 
 .responsive {
@@ -43,13 +35,11 @@ h5 {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	// background-color: blue;
 	height: 500px;
 	width: 23%;
-	// background: blue;
 	display: inline-block;
 	float: left;
-	margin: 0% 2% 0% 0; // Space bottom and
+	margin: 0% 2% 0% 0;
 	border-radius: 50px;
 }
 
@@ -63,7 +53,7 @@ h5 {
 
 .item-name {
 	text-align: center;
-  padding-top: 5px;
+  	padding-top: 5px;
 }
 
 .item-description {
@@ -76,4 +66,18 @@ h5 {
 article {
   background-color: rgb(228, 225, 225);
   border-style: solid;
+}
+  
+.responsive {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	height: auto;
+}
+
+.button-container .filter-button {
+	float: left;
+	padding: 5px 0px;
+	margin-left: 20px;
 }
