@@ -1,7 +1,9 @@
 const express = require("express");
+const cors = require("cors");
 const app = express();
 const port = 3000;
 
+app.use(cors());
 const breakfastItems = [
   {
     name: "Pancakes",
@@ -113,8 +115,8 @@ const lunchItems = [
     category: "lunch",
   },
 ];
-
-app.get("/breakfast", (req, res) => {
+//localhost:3000/breakfast
+http: app.get("/breakfast", (req, res) => {
   res.send(breakfastItems);
 });
 
