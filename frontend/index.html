@@ -1,118 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <title>inHungry</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="style.css" />
-	<title>inHungry</title>
-</head>
-
-<body>
-
-	<div class="title">
-		<h1>inHungry Menu</h1>
-	</div>
-	<div class="button-container">
-		<div id="btn1"><button class="filter-button">Breakfast</button></div>
-		<div id="btn2"><button class="filter-button">Lunch</button></div>
-		<div id="btn3"><button class="filter-button">Dinner</button></div>
-		<div id="btn4"><button class="filter-button">Drinks</button></div>
-	</div>
-	<hr>
-	<div class="food-items">
-
-			<div id="item1">
-      <article>
-				<div class="item-name">
-					<h3 id="heading1">Pancakes</h3>
-				</div>
-
-				<div class="item-image">
-					<img id="image1" src="https://thumbs.dreamstime.com/b/stack-pancakes-pouring-honey-dark-background-stack-pancakes-pouring-honey-dark-background-decoration-concept-147724590.jpg" class="responsive" class="center" />
-				</div>
-
-				<div class="item-description">
-					<p id="desc1">
-						A pancake (or hotcake, griddlecake, or flapjack) is a flat cake,
-						often thin and round, prepared from a starch-based batter that may
-						contain eggs, milk and butter and cooked on a hot surface such as a
-						griddle or frying pan, often frying with oil or butter.
-					</p>
-					<h5>$11.99</h5>
-				</div>
-      </article>
-			</div>
-    
-
-			<div id="item2">
-      <article>
-				<div class="item-name">
-					<h3 id="heading2">Omelettes</h3>
-				</div>
-
-				<div class="item-image">
-					<img id="image2" src="https://thumbs.dreamstime.com/b/picture-appetizing-yellow-omelette-black-background-there-space-to-put-text-street-food-image-top-view-182957722.jpg" class="responsive" />
-				</div>
-
-				<div class="item-description">
-					<p id="desc1">
-						A pancake (or hotcake, griddlecake, or flapjack) is a flat cake,
-						often thin and round, prepared from a starch-based batter that may
-						contain eggs, milk and butter and cooked on a hot surface such as a
-						griddle or frying pan, often frying with oil or butter.
-					</p>
-					<h5>$13.99
-          </h5>
-				</div>
-      </article>
-			</div>
-
-			<div id="item3">
-      <article>
-					<div class="item-name">
-						<h3 id="heading3">Crepes</h3>
-					</div>
-
-					<div class="item-image">
-						<img id="image3" src="https://thumbs.dreamstime.com/b/stack-crepes-powdered-sugar-dark-background-stack-crepes-powdered-sugar-dark-background-pancakes-108177802.jpg" class="responsive" />
-					</div>
-
-					<div class="item-description">
-						<p>
-							A pancake (or hotcake, griddlecake, or flapjack) is a flat cake,
-							often thin and round, prepared from a starch-based batter that may
-							contain eggs, milk and butter and cooked on a hot surface such as a
-							griddle or frying pan, often frying with oil or butter.
-						</p>
-						<h5>$11.99</h5>
-					</div>
-        </article>
-				</div>
-		
-			  <div id="item4">
+  <body>
+    <div class="title">
+      <h1>inHungry Menu</h1>
+    </div>
+    <div class="button-container">
+      <div id="btn1">
+        <button class="filter-button" onclick="onClickButton1()">
+          Breakfast
+        </button>
+      </div>
+      <div id="btn2"><button class="filter-button">Lunch</button></div>
+      <div id="btn3"><button class="filter-button">Dinner</button></div>
+      <div id="btn4"><button class="filter-button">Drinks</button></div>
+    </div>
+    <hr />
+    <div class="food-items">
+      <div id="item1">
         <article>
-						<div class="item-name">
-							<h3 id="heading4">waffles</h3>
-						</div>
+          <div class="item-name">
+            <h3 id="heading1">test</h3>
+          </div>
 
-						<div class="item-image">
-							<img id="image4" src="https://thumbs.dreamstime.com/b/viennese-waffles-black-belgian-wafer-closeup-isolated-background-134828767.jpg" class="responsive" />
-						</div>
+          <div class="item-image">
+            <img
+              id="image1"
+              src="https://thumbs.dreamstime.com/b/stack-pancakes-pouring-honey-dark-background-stack-pancakes-pouring-honey-dark-background-decoration-concept-147724590.jpg"
+              class="responsive"
+              class="center"
+            />
+          </div>
 
-						<div class="item-description">
-							<p>
-								A pancake (or hotcake, griddlecake, or flapjack) is a flat cake,
-								often thin and round, prepared from a starch-based batter that may
-								contain eggs, milk and butter and cooked on a hot surface such as a
-								griddle or frying pan, often frying with oil or butter.
-							</p>
-							<h5>$11.99</h5>
-            </article>
-						</div>
-					
-  </div>
-</body>
+          <div class="item-description">
+            <p id="desc1">
+              A pancake (or hotcake, griddlecake, or flapjack) is a flat cake,
+              often thin and round, prepared from a starch-based batter that may
+              contain eggs, milk and butter and cooked on a hot surface such as
+              a griddle or frying pan, often frying with oil or butter.
+            </p>
+            <h5>$11.99</h5>
+          </div>
+        </article>
+      </div>
 
+      <div id="item2">
+        <article>
+          <div class="item-name">
+            <h3 id="heading2">Omelettes</h3>
+          </div>
+
+          <div class="item-image">
+            <img
+              id="image2"
+              src="https://thumbs.dreamstime.com/b/picture-appetizing-yellow-omelette-black-background-there-space-to-put-text-street-food-image-top-view-182957722.jpg"
+              class="responsive"
+            />
+          </div>
+
+          <div class="item-description">
+            <p id="desc1">
+              A pancake (or hotcake, griddlecake, or flapjack) is a flat cake,
+              often thin and round, prepared from a starch-based batter that may
+              contain eggs, milk and butter and cooked on a hot surface such as
+              a griddle or frying pan, often frying with oil or butter.
+            </p>
+            <h5>$13.99</h5>
+          </div>
+        </article>
+      </div>
+
+      <div id="item3">
+        <article>
+          <div class="item-name">
+            <h3 id="heading3">Crepes</h3>
+          </div>
+
+          <div class="item-image">
+            <img
+              id="image3"
+              src="https://thumbs.dreamstime.com/b/stack-crepes-powdered-sugar-dark-background-stack-crepes-powdered-sugar-dark-background-pancakes-108177802.jpg"
+              class="responsive"
+            />
+          </div>
+
+          <div class="item-description">
+            <p>
+              A pancake (or hotcake, griddlecake, or flapjack) is a flat cake,
+              often thin and round, prepared from a starch-based batter that may
+              contain eggs, milk and butter and cooked on a hot surface such as
+              a griddle or frying pan, often frying with oil or butter.
+            </p>
+            <h5>$11.99</h5>
+          </div>
+        </article>
+      </div>
+
+      <div id="item4">
+        <article>
+          <div class="item-name">
+            <h3 id="heading4">waffles</h3>
+          </div>
+
+          <div class="item-image">
+            <img
+              id="image4"
+              src="https://thumbs.dreamstime.com/b/viennese-waffles-black-belgian-wafer-closeup-isolated-background-134828767.jpg"
+              class="responsive"
+            />
+          </div>
+
+          <div class="item-description">
+            <p>
+              A pancake (or hotcake, griddlecake, or flapjack) is a flat cake,
+              often thin and round, prepared from a starch-based batter that may
+              contain eggs, milk and butter and cooked on a hot surface such as
+              a griddle or frying pan, often frying with oil or butter.
+            </p>
+            <h5>$11.99</h5>
+          </div>
+        </article>
+      </div>
+    </div>
+  </body>
 </html>

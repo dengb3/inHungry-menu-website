@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const cors = require('cors')
 const port = 3000;
 
 const breakfastItems = [
@@ -113,6 +114,8 @@ const lunchItems = [
     category: "lunch",
   },
 ];
+
+app.use(cors())
 
 app.get("/breakfast", (req, res) => {
   res.send(breakfastItems);
