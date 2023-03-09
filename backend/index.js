@@ -17,9 +17,8 @@ const breakfastItems = [
     name: "Omelettes",
     img_url:
       "https://thumbs.dreamstime.com/b/picture-appetizing-yellow-omelette-black-background-there-space-to-put-text-street-food-image-top-view-182957722.jpg",
-    description:
-      "A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter.",
-    price: 13.99,
+    description: "test",
+    price: 12.99,
     category: "breakfast",
   },
   {

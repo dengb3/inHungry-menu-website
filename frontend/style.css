@@ -81,3 +81,8 @@ article {
 	padding: 5px 0px;
 	margin-left: 20px;
 }
+
+article {
+	width: 250px;
+	height: 470px;
+}

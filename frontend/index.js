@@ -1,14 +1,17 @@
-// General idea for data
-// title id1 = resArray[0].name
-// url id1 = resArray[0].img_url
-// description id1 = resArray[0].description
+
  async function fetchData(url){
   const result =  await fetch(url)
   .then((response) => { return  response.json()})
   
   .then((data) => {return data})
-  document.getElementById("heading1").innerHTML = result[0].name
-  console.log(result[0].name)
+  document.getElementById("heading2").innerHTML = result[1].name
+  document.getElementById("image2").innerHTML = result[1].img_url
+  document.getElementById("desc2").innerHTML = result[1].description
+  document.getElementById("price2").innerHTML = result[1].price
+  console.log(result[1].name)
+  console.log(result[1].img_url)
+  console.log(result[1].description)
+  console.log(result[1].price)
  }
  function btn1Pressed() {
    fetchData("http://localhost:3000/breakfast")
@@ -17,6 +20,3 @@ function onClickButton1(){
   btn1Pressed();
 
 }
-
-
-//   document.getElementById("heading1").innerHTML = data[0].name
