@@ -19,7 +19,7 @@ async function fetchData(url) {
   for (let i = 0; i < elementIds.length; i++) {
     for (let j = 0; j < elementIds[i].length; j++) {
       document.getElementById(elementIds[i][0]).innerHTML = result[i].name;
-      document.getElementById(elementIds[i][1]).innerHTML = result[i].img_url;
+      document.getElementById(elementIds[i][1]).src = result[i].img_url;
       document.getElementById(elementIds[i][2]).innerHTML =
         result[i].description;
       document.getElementById(elementIds[i][3]).innerHTML = result[i].price;
