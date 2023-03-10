@@ -25,8 +25,7 @@ const breakfastItems = [
     name: "Crepes",
     img_url:
       "https://thumbs.dreamstime.com/b/stack-crepes-powdered-sugar-dark-background-stack-crepes-powdered-sugar-dark-background-pancakes-108177802.jpg",
-    description:
-      "A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter.",
+    description: "Flat", //"A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter.",
     price: 18.99,
     category: "breakfast",
   },
@@ -34,8 +33,7 @@ const breakfastItems = [
     name: "waffles",
     img_url:
       "https://thumbs.dreamstime.com/b/stack-crepes-powdered-sugar-dark-background-stack-crepes-powdered-sugar-dark-background-pancakes-108177802.jpg",
-    description:
-      "A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter.",
+    description: "A waffle", //"A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter.",
     price: 16.99,
     category: "breakfast",
   },

@@ -15,13 +15,22 @@
     </div>
     <div class="button-container">
       <div id="btn1">
-        <button class="filter-button" onclick="onClickButton1()">
+        <button class="filter-button" onclick="onClickButton1(1)">
           Breakfast
         </button>
       </div>
-      <div id="btn2"><button class="filter-button">Lunch</button></div>
-      <div id="btn3"><button class="filter-button">Dinner</button></div>
-      <div id="btn4"><button class="filter-button">Drinks</button></div>
+      <div id="btn2">
+		<button class="filter-button" onclick="onClickButton1(2)">
+		Lunch</button>
+		</div>
+      <div id="btn3">
+	  <button class="filter-button" onclick="onClickButton1(3)">
+		Dinner</button>
+	</div>
+      <div id="btn4">
+		<button class="filter-button" onclick="onClickButton1(4)">
+		Drinks</button>
+		</div>
     </div>
     <hr />
     <div class="food-items">
@@ -34,7 +43,7 @@
           <div class="item-image">
             <img
               id="image1"
-              src="https://thumbs.dreamstime.com/b/stack-pancakes-pouring-honey-dark-background-stack-pancakes-pouring-honey-dark-background-decoration-concept-147724590.jpg"
+              src=""
               class="responsive"
               class="center"
             />
@@ -58,7 +67,7 @@
           <div class="item-image">
             <img
               id="image2"
-              src="https://thumbs.dreamstime.com/b/picture-appetizing-yellow-omelette-black-background-there-space-to-put-text-street-food-image-top-view-182957722.jpg"
+              src=""
               class="responsive"
             />
           </div>
@@ -81,7 +90,7 @@
           <div class="item-image">
             <img
               id="image3"
-              src="https://thumbs.dreamstime.com/b/stack-crepes-powdered-sugar-dark-background-stack-crepes-powdered-sugar-dark-background-pancakes-108177802.jpg"
+              src="""
               class="responsive"
             />
           </div>
@@ -113,7 +122,7 @@
             <p id="desc4">
 
             </p>
-            <h5>$11.99</h5>
+            <h5 id="price4">11.99</h5>
           </div>
         </article>
       </div>
