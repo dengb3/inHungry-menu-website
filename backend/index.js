@@ -58,14 +58,6 @@ const lunchItems = [
     category: "lunch",
   },
   {
-    name: "Avocado Toast",
-    img_url: "https://img.freepik.com/premium-photo/avocado-toast-with-tomatoes-stone-board-isolated-black-background-breakfast-concept_543222-353.jpg",
-    description:
-      "Avocado toast is a type of open sandwich consisting of toast with mashed avocado, and usually salt, black pepper, and sometimes citrus juice. Ingredients added to enhance the flavor include olive oil, hummus, red pepper flakes, feta, dukkah and tomato",
-    price: 14.99,
-    category: "lunch",
-  },
-  {
     name: "Caesar Salad",
     img_url: "https://www.shutterstock.com/image-photo/black-plate-caesar-salad-on-260nw-1934000738.jpg",
     description:
