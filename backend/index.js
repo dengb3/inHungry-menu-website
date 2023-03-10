@@ -27,7 +27,7 @@ const breakfastItems = [
       "https://thumbs.dreamstime.com/b/stack-crepes-powdered-sugar-dark-background-stack-crepes-powdered-sugar-dark-background-pancakes-108177802.jpg",
     description:
       "A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter.",
-    price: 11.99,
+    price: 13.99,
     category: "breakfast",
   },
   {
@@ -36,7 +36,7 @@ const breakfastItems = [
       "https://thumbs.dreamstime.com/b/viennese-waffles-black-belgian-wafer-closeup-isolated-background-134828767.jpg",
     description:
       "A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter.",
-    price: 11.99,
+    price: 14.99,
     category: "breakfast",
   },
 ];
