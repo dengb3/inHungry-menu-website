@@ -9,13 +9,14 @@ async function fetchData(url) {
       console.log("data", data);
       return data;
     });
-
   const elementIds = [
     ["heading1", "image1", "desc1", "price1"],
     ["heading2", "image2", "desc2", "price2"],
     ["heading3", "image3", "desc3", "price3"],
     ["heading4", "image4", "desc4", "price4"],
   ];
+
+  document.getElementById("price4").innerHTML = result[3].price;
   for (let i = 0; i < elementIds.length; i++) {
     // console.log(`loopI: ${i}`);
     for (let j = 0; j < elementIds[i].length; j++) {
